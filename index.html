@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>
+	</title>
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+
+	$(document).ready(function(){
+		$('#class').hover(function(){
+		$(this).hide("2000");
+	
+		});
+	});
+	$(document).ready(function(){
+		$('#panel h2').hover(function(){
+		$('#class').show("10000");
+	
+		});
+	});
+	$(document).ready(function(){
+		$('#class ul').append("<li>Home</li>")
+		$('#class ul').append("<li>Nice</li>")
+		$('h1').html("hello world")
+	
+	
+		
+	});
+	</script>
+</head>
+<body>
+<div id="main">
+	<div id="class" style="width:500; background: url(https://static.pexels.com/photos/39517/rose-flower-blossom-bloom-39517.jpeg);font-size: 20px">
+	
+	<h1>.</h1>
+	
+	<ul>
+	  <li><strong>Blue</strong> Jeans</li>
+	  <li>Denim</li>
+	  <li>Chambray</li>
+	  <li>Dark Wash</li>
+	  <li>Light Wash</li>
+	</ul>
+	</div>
+	<div id="panel" style="width: 500;background-color: grey">
+		<h2> Welcome to Our site</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. 
+		</p>
+	
+	</div>
+</div>
+	
+</body>
+</html>
+
